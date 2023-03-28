@@ -27,8 +27,8 @@ img {
 
 .container {
     width: 1440px;
-    padding: 120px;
     margin: 0 auto;
+    padding: 0 120px;
 }
 
 /* header */
@@ -38,7 +38,7 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 18px;
-    
+    margin-top: 26px;
 }
 
 .header-list {
@@ -180,34 +180,151 @@ img {
     margin-left: 6px;
     }
 
-.designs-title {
+
+    /* design-section */
+
+    .designs-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 140px;
+    }
+
+    .designs-title {
+    width: 450px;
+
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
     margin-bottom: 42px;
+    }
+
+    .designs-text {
+    width: 531px;
+
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px; 
+    color: #4D5053;
+    margin-bottom: 30px;
+    }
+
+    .designs-link {
+        margin-right: 20px;
+    }
+
+    .designs-number {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        color: #4D5053;
+    }
+
     
-    }
-.designs-text {
-    }
-.designs-image {
-    }
-.designs-number {
-    }
-.designs-button {
-    width: 263px;
-    height: 71px;
+    .designs-button {
+        width: 263px;
+        height: 71px;
+    
+        background-image: url(../imgs/button2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+        border: 2px solid #292F36;
+        border-radius: 18px;
+        padding: 22px 67px 22px 34px;
+    
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.72px;
+        color: #FFFFFF;
+        font-weight: 400;
+    
+        cursor: pointer;
+        }
 
-    background-image: url(../imgs/button2.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+        .contact {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+        }
 
-    border: 2px solid #292F36;
-    border-radius: 18px;
-    padding: 22px 67px 22px 34px;
+        .reviews-section {
+            background-color: #F4F0EC;
+            border-radius: 70px;;
+        }
+        .reviews-list {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 120px;
+        }
+        .reviews-list-item {
+            background-color: white;
+            width: 354px;
+            height: 287px;
+            border-radius: 30px;
+            padding: 50px 30px 45px 35px;
+        }
 
+        .reviews-list-item:not(:last-child) {
+            margin-right: 16px;
+        }
+
+        .reviews-image {
+            margin-right: 20px;
+        }
+
+        .reviews-title {
+        padding-top: 103px;
+        padding-bottom: 46px;
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 0.22px;
+
+    color: #292F36;
+        }
+        
+        .reviews-place {
+            font-family: 'Jost';
+    font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    letter-spacing: 0.72px;
-    color: #FFFFFF;
-    font-weight: 400;
+    letter-spacing: 0.22px;
+    color: #4D5053;
 
-    cursor: pointer;
+        }
+
+        .reviews-text {
+            font-family: 'Jost';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.22px; 
+            color: #4D5053;
+        }
+
+    .reviews-user {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+    }     
+    
+    .reviews-list-title {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
     }
