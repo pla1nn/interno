@@ -62,6 +62,22 @@ img {
     color: #CDA274
 } 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* hero */
 
 .hero {
@@ -69,7 +85,7 @@ img {
     max-width: 100%;
     border-radius: 0px 0px 0px 290px;
 
-    background-image: url(../imgs/room.jpg);
+    background-image: url(../imgs/hero-imgs/room.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -103,7 +119,7 @@ img {
     width: 207px;
     height: 71px;
 
-    background-image: url(../imgs/button1.jpg);
+    background-image: url(../imgs/hero-imgs/button1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -120,6 +136,21 @@ img {
 
     cursor: pointer;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* features */
+
 
 .features-section {
         margin-top: 100px;
@@ -176,9 +207,24 @@ img {
     height: 17px;
 
     content: "";
-    background-image: url(../imgs/arrow.jpg);
+    background-image: url(../imgs/features-imgs/arrow.jpg);
     margin-left: 6px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     /* design-section */
@@ -232,7 +278,7 @@ img {
         width: 263px;
         height: 71px;
     
-        background-image: url(../imgs/button2.jpg);
+        background-image: url(../imgs/designs-imgs/button2.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -256,9 +302,28 @@ img {
             margin-bottom: 50px;
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* reviews */
+
         .reviews-section {
             background-color: #F4F0EC;
             border-radius: 70px;;
+            margin-bottom: 139px;
         }
         .reviews-list {
             display: flex;
@@ -327,4 +392,493 @@ img {
     line-height: 38px;
     letter-spacing: 0.22px;
     color: #292F36;
+    }       
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* logos */
+    
+    .logos-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 48px;
+        padding-right: 55px;
+        margin-bottom: 100px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    /* projects */
+
+    .projects-section {
+        margin-bottom: 78px;
+    }
+
+    .projects-title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 47px;
+        line-height: 62px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #292F36;
+    }
+
+    .projects-text {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 71px;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+    }
+
+    .projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px 20px;
+    }
+
+    .projects-list-item {
+        flex-basis: calc((100% - 20px) / 2);
+    }
+
+    .projects-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projects-list-image {
+        margin-bottom: 24px;
+    }
+
+    .projects-list-title {
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.22px;
+        
+        color: #292F36;
+    }
+
+    .projects-list-text {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* numbers */
+
+
+    .numbers-section {
+        height: 475px;
+        background-color: #F4F0EC;
+        padding-top: 140px;
+        padding-bottom: 140px;
+        margin-bottom: 130px;
+    }
+    .numbers-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .numbers-list-item {
+        width: 288px;
+        height: 195px;
+        margin-right: 16px;
+    }
+
+    .numbers-list-item:not(:last-child) {
+        border-right: 1px solid #CDA274;
+    }
+
+    .numbers-number {
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 85px;
+        line-height: 128px;
+        text-align: center;
+        letter-spacing: 1.7px;
+        
+        color: #CDA274;
+    }
+
+    .numbers-list-text {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* recent */
+
+    .recent-section {
+        
+    }
+
+    .recent-title {
+        display: flex;
+        justify-content: center;
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 62px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #292F36;
+
+        margin-bottom: 21px;
+        
+    }
+
+    .recent-text {
+        display: flex;
+        justify-content: center;
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+        margin-bottom: 70px;
+    }
+
+    .recent-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px 20px;
+    }
+
+    .recent-list-item {
+    }
+
+    .recent-image {
+        margin-bottom: 16px;
+    }
+
+    .recent-list-text {
+
+    }
+
+    .recent-list-title {
+        margin-bottom: 10px;
+    }
+
+    .recent-date {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+        
+    }
+
+    .recent-button {
+    }
+
+    .recent-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .recent-info {
+        
+    }
+
+
+
+
+
+
+
+
+
+
+    /* join */
+
+    .join-section {
+        background-color: #292F36;
+        border-radius: 70px;
+        height: 414px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .join-title {
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 75px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #FFFFFF;
+
+        padding-top: 100px;
+        margin-bottom: 9px;
+    }
+
+    .join-text {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #FFFFFF;
+
+        margin-bottom: 31px;
+    }
+
+    .join-button {
+        background-color: #CDA274;
+        border-radius: 18px;
+        width: 241px;
+        height: 71px;
+        border: 2px solid #CDA274;
+
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #FFFFFF;
+
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+    /* footer */
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .footer-logo {
+        margin-bottom: 15px;
+    }
+
+    .footer-logo-text {
+        margin-bottom: 31px;
+    }
+
+    .footer-logo-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-logo-list-item {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+    }
+
+    .footer-logo-list-item:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .footer-pages {
+    }
+
+    .footer-pages-title {
+        font-family: 'DM Serif Display'; 
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 38px;
+        letter-spacing: 0.22px;
+        
+        color: #292F36;
+
+        margin-bottom: 22px;
+    }
+
+    .footer-pages-list {
+    }
+
+    .footer-pages-list-item {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+
+        margin-bottom: 30px;
+    }
+
+    .footer-explore {
+    }
+    
+    .footer-explore-title {
+        font-family: 'DM Serif Display'; 
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 38px;
+        letter-spacing: 0.22px;
+        
+        color: #292F36;
+
+        margin-bottom: 22px;
+    }
+
+    .footer-explore-list {
+    }
+
+    .footer-explore-list-item {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+
+        margin-bottom: 30px;
+    }
+
+    .footer-contact {
+    }
+
+    .footer-contact-title {
+        font-family: 'DM Serif Display'; 
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 38px;
+        letter-spacing: 0.22px;
+        
+        color: #292F36;
+
+        margin-bottom: 22px;
+    }
+
+    .footer-contact-list {
+    }
+
+    .footer-contact-list-item {
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+
+        margin-bottom: 30px;
+    }
+
+    .footer-copyright {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .footer-copyright-text {
+        margin-right: 6px;
+
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #4D5053;
+    }
+
+    .footer-copyright-link {
+        margin-right: 6px;
+
+        font-family: 'Jost';
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.22px;
+        
+        color: #CDA274;
+
+        cursor: pointer;
     }
