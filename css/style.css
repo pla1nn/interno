@@ -503,6 +503,8 @@ img {
         color: #4D5053;
     }
 
+    
+
 
 
 
@@ -574,7 +576,7 @@ img {
     /* recent */
 
     .recent-section {
-        
+        margin-bottom: 141px;
     }
 
     .recent-title {
@@ -614,14 +616,25 @@ img {
     }
 
     .recent-list-item {
+        border: 1px solid #E7E7E7;
+        border-radius: 62px;
+        width: 344px;
     }
 
     .recent-image {
         margin-bottom: 16px;
+        width: 300px;
     }
 
     .recent-list-text {
-
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0.5px;
+        
+        color: #292F36;
+        
     }
 
     .recent-list-title {
@@ -639,16 +652,15 @@ img {
         
     }
 
-    .recent-button {
-    }
-
-    .recent-content {
-        display: flex;
-        justify-content: space-between;
-    }
 
     .recent-info {
-        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .recents-block {
+        padding: 21px 21px 40px 21px;
     }
 
 
